@@ -4,6 +4,7 @@ import Infolista from './Infolista.jsx'
 import Linkkilista from './Linkkilista.jsx'
 import Kayttajakortti from './Kayttajakortti.jsx'
 import OpiskelijaTiedot from './OpiskelijaTiedot.jsx'
+import Counter from './Counter.jsx'
  
 /*function App() {
   return(
@@ -14,7 +15,7 @@ import OpiskelijaTiedot from './OpiskelijaTiedot.jsx'
   )
 }*/
 
-const tiedot = ["React", "JavaScript", "CSS"];
+/*const tiedot = ["React", "JavaScript", "CSS"];
 
 const linkit = 
 [{id: 1,nimi: "Google", url: "https://google.com"},
@@ -35,6 +36,12 @@ function App() {
       <h2>Käyttäkäkortti</h2>
       <Kayttajakortti nimi="Ville" lista={["React", "TypeScript", "CSS"]} />
     </div>
+  )
+} */
+
+function App() {
+  return (
+    <Counter/>
   )
 }
  
