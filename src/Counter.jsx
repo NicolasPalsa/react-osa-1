@@ -68,5 +68,5 @@ function Number({ count }) {
     </div>
   )
 }
-
+  
 export default Counter
