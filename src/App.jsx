@@ -8,16 +8,16 @@ import Counter from './Counter.jsx'
 import Header from './Header.jsx'
 import ShoppingList from './ShoppingList.jsx'
  
-/*  Tervehdys ja Opiskelijatiedot
+/*  Tervehdys ja Opiskelijatiedot */
 
 function App() {
   return(
     <div>
-      {<Tervehdys name='Nicolas'/>}
+      <Tervehdys name='Nicolas'/>
       <OpiskelijaTiedot nimi='Matti Meikäläinen' ika='16' kurssi='Reactin perusteet'/>
     </div>
   )
-}*/
+}
 
 
 
@@ -58,7 +58,7 @@ function App() {
 } */
 
 
-
+/*
 function App() { 
 
   return (
@@ -68,6 +68,6 @@ function App() {
       <ShoppingList />
     </div>
   )
-}
+*/
  
 export default App

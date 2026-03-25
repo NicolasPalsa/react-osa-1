@@ -1,11 +1,11 @@
 import * as React from 'react'
  
-function OpiskelijaTiedot({nimi, ika, kurssi}) {
+function OpiskelijaTiedot(props) {
     return(
       <div>
-        <p>Nimi: {nimi}</p>
-        <p>Ikä: {ika}</p>
-        <p>Kurssi: {kurssi}</p>
+        <p>Nimi: {props.nimi}</p>
+        <p>Ikä: {props.ika}</p>
+        <p>Kurssi: {props.kurssi}</p>
       </div>
     )
 }
